@@ -202,7 +202,9 @@ The dependencies are:
 1) A POSIX-compliant OS (Chimera Linux is the reference platform)
 2) A C++17 compiler
 3) Meson and Ninja (to build)
-5) PAM
+4) CMake (for meson's internal configuration)
+5) scdoc (for generating man pages)
+6) PAM
 
 The Dinit backend requires at least Dinit 0.16 or newer, older versions will
 not work. The project also installs an example Dinit service for starting
